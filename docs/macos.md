@@ -51,7 +51,7 @@ Icons used to describe some modifiers and actions
 | <kbd>▷</kbd>   | <kbd>⇪↹</kbd>               | Left (terminal autocompletion)                        |
 | <kbd>🄰</kbd>   | <kbd>⇧</kbd>+<kbd>⌫</kbd>   | Caps lock                                             |
 | <kbd>⇧⇧</kbd>  | <kbd>L⇧</kbd>+<kbd>R⇧</kbd> | [Caps word](https://zmk.dev/docs/behaviors/caps-word) |
-| <kbd>^^</kbd>  | <kbd>L^</kbd>+<kbd>R^</kbd> | Cancel caps                                           |
+| <kbd>⌘⌘</kbd>  | <kbd>L^</kbd>+<kbd>R^</kbd> | Cancel caps                                           |
 
 ### Files
 
@@ -65,7 +65,7 @@ Icons used to describe some modifiers and actions
 
 | Label          | Shortcut                    | Actions                        |
 | -------------: | --------------------------: | ------------------------------ |
-| <kbd>⌘⌘</kbd>  | <kbd>L⌘</kbd>+<kbd>R⌘</kbd> | Show current layout on screen  |
+| <kbd>⌥⌥</kbd>  | <kbd>L⌘</kbd>+<kbd>R⌘</kbd> | Show current layout on screen  |
 
 ⇧ [Back to menu](#menu)
 
