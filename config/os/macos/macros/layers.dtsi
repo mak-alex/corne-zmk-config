@@ -15,9 +15,9 @@ cw_mCAPS: cw_mCAPS {
     wait-ms = <MC_WAIT_START>;
     bindings
         = <&none>
-        , <&kp CAPS>
+        , <&kp LS(CAPS)>
         , <&macro_wait_time MC_WAIT>
-        , <&kp H_mCWR>;
+        , <&kp LS(H_mCWR)>;
 };
 
 cw_mON: cw_mON {
