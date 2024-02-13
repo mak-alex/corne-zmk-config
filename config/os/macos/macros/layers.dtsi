@@ -15,7 +15,7 @@ cw_mCAPS: cw_mCAPS {
     wait-ms = <MC_WAIT_START>;
     tap-ms = <MC_TAP>;
     bindings
-        = <&kp H_mCWR>
+        = <&kp LS(H_mCWR)>
         , <&kp CAPS>;
 };
 
@@ -23,7 +23,7 @@ cw_mON: cw_mON {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
     bindings
-        = <&kp LS(H_mCWR)>
+        = <&kp LA(H_mCWR)>
         , <&cw>;
 };
 
