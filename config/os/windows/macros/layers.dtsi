@@ -15,14 +15,14 @@ cw_wCAPS: cw_wCAPS {
     tap-ms = <MC_TAP>;
     bindings
         = <&kp H_wCWR>
-        , <&kp CAPS>;
+        , <&kp LS(CAPS)>;
 };
 
 cw_wON: cw_wON {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
     bindings =
-        <&kp LS(H_wCWR) &cw>;
+        <&kp LA(H_wCWR) &cw>;
 };
 
 cw_wOFF: cw_wOFF {
