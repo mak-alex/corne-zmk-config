@@ -12,11 +12,9 @@ MOTO_MACRO(w, FNK, AXN)  //mo_wFNK_to_wAXN
 cw_wCAPS: cw_wCAPS {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
-    wait-ms = <MC_WAIT_START>;
     tap-ms = <MC_TAP>;
     bindings
         = <&kp LS(H_wCWR)>
-        , <&none>
         , <&kp CAPS>;
 };
 
