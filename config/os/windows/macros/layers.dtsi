@@ -16,6 +16,7 @@ cw_wCAPS: cw_wCAPS {
     tap-ms = <MC_TAP>;
     bindings
         = <&kp LS(H_wCWR)>
+        , <&none>
         , <&kp CAPS>;
 };
 
