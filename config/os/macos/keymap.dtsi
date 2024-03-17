@@ -158,7 +158,7 @@
             #define MSRT1  MKY_RET
             #define MSRT2  &kp C_BRI_UP
 
-ß
+
             display-name = "mSTG";
             bindings = <
               MSLU0  MSLU1  MSLU2  MSLU3  MSLU4  MSLU5    MSRU0  MSRU1  MSRU2  MSRU3  MSRU4  MSRU5
