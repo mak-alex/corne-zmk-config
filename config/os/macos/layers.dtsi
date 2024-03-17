@@ -7,8 +7,8 @@
 
 /* Helpers */
 #define H_mCWR  F13
-#define F_mBAS  LG(LS(F14))
-#define F_mDEV  LG(LS(F15))
-#define F_mAXN  LG(LS(F16))
-#define F_mFNK  LG(LS(F17))
-#define F_mSTG  LG(LS(F18))
+#define F_mBAS  LS(F14)
+#define F_mDEV  LS(F15)
+#define F_mAXN  LS(F16)
+#define F_mFNK  LS(F17)
+#define F_mSTG  LS(F18)
