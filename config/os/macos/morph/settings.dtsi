@@ -38,6 +38,6 @@ MORPH_KAS(
     rectangle,
     MOD_LALT,
     &kp LA(LC(F)),              // tap:   maximize
-    &kp LS(LA(LC(BACKSPACE))),  // alt:   restore
+    &kp LA(LC(BACKSPACE)),      // alt:   restore
     &kp LS(LA(LC(F)))           // shift: center
 )
