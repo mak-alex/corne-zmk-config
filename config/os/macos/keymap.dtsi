@@ -146,8 +146,8 @@
             #define MSRD1  &kp LA(LG(LC(LEFT)))         // tap: rectangle bottom left
             #define MSRD2  &kp LS(LA(LG(DOWN)))         // tap: rectangle bottom half
             #define MSRD3  &kp LA(LG(LC(RIGHT)))        // tap: rectangle bottom right
-            #define MSRD4  &none
-            #define MSRD5  &kp LC(DOWN)                 // tap: application window
+            #define MSRD4  &kp LC(DOWN)                 // tap: application window
+            #define MSRD5  &none
 
 
             #define MSLT2  &kp C_BRI_DN
