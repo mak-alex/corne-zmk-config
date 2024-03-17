@@ -140,14 +140,14 @@
             #define MSRM2  &hm_mSTG_RA  LALT 0          // tap: mp_mSTG_rectangle
             #define MSRM3  &kp LS(LA(LG(RIGHT)))        // tap: rectangle right half
             #define MSRM4  &kp LC(UP)                   // tap: mission control
-            #define MSRM5  &kp LC(DOWN)                 // tap: application window
+            #define MSRM5  &none
 
             #define MSRD0  &kp C_VOL_DN
             #define MSRD1  &kp LA(LG(LC(LEFT)))         // tap: rectangle bottom left
             #define MSRD2  &kp LS(LA(LG(DOWN)))         // tap: rectangle bottom half
             #define MSRD3  &kp LA(LG(LC(RIGHT)))        // tap: rectangle bottom right
             #define MSRD4  &none
-            #define MSRD5  &none
+            #define MSRD5  &kp LC(DOWN)                 // tap: application window
 
 
             #define MSLT2  &kp C_BRI_DN
