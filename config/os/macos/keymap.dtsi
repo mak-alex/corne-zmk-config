@@ -167,17 +167,3 @@
                                    MSLT2  MSLT1  MSLT0    MSRT0  MSRT1  MSRT2
             >;
         };
-
-
-
-/*                KEY NAME
-
-  ╭──────────────────────────────╮ ╭──────────────────────────────╮
-  │ LU0  LU1  LU2  LU3  LU4  LU5 │ │ RU0  RU1  RU2  RU3  RU4  RU5 │
-  │ LM0  LM1  LM2  LM3  LM4  LM5 │ │ RM0  RM1  RM2  RM3  RM4  RM5 │
-  │ LD0  LD1  LD2  LD3  LD4  LD5 │ │ RD0  RD1  RD2  RD3  RD4  RD5 │
-  ╰─────────────╮  LT2  LT1  LT0 │ │ RT0  RT1  RT2  ╭─────────────╯
-                ╰────────────────╯ ╰────────────────╯
-
-*/
-
