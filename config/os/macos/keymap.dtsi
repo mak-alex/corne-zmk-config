@@ -115,8 +115,8 @@
 
             #define MSLM0  &kp LC(LA(SPACE))            // tap: input source
             #define MSLM1  &hm_mSTG_LC  LCTRL  0        // tap: m_s_b3
-            #define MSLM2  &hm_mSTG_LA  LALT   0        // tap: m_s_b4
-            #define MSLM3  &none
+            #define MSLM2  &m_s_b4
+            #define MSLM3  &kp LALT
             #define MSLM4  &hm_mSTG_LS  LSHFT  0        // tap: mp_mSTG_screenshot
             #define MSLM5  &mp_ma_zoom_reset            // tap: zoom reset | shift: zoom reset on vscode
 
@@ -139,8 +139,8 @@
             #define MSRM1  &hm RSHFT  LS(LA(LG(LEFT)))  // tap: rectangle left half
             #define MSRM2  &hm_mSTG_RA  LALT 0          // tap: mp_mSTG_rectangle
             #define MSRM3  &kp LS(LA(LG(RIGHT)))        // tap: rectangle right half
-            #define MSRM4  &none
-            #define MSRM5  &none
+            #define MSRM4  &kp LC(UP)                   // tap: mission control
+            #define MSRM5  &kp LC(DOWN)                 // tap: application window
 
             #define MSRD0  &kp C_VOL_DN
             #define MSRD1  &kp LA(LG(LC(LEFT)))         // tap: rectangle bottom left
