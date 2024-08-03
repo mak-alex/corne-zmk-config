@@ -120,7 +120,7 @@
             #define ASLM4  &kp LG(L)            // tap: calendar
             #define ASLM5  &kp LG(P)            // tap: music
 
-            #define ASLD0  mp_sSTG_cb           // tap: none | shift: clear current profile | alt: clear all profiles
+            #define ASLD0  &mp_sSTG_cb          // tap: none | shift: clear current profile | alt: clear all profiles
             #define ASLD1  &m_s_b5
             #define ASLD2  &m_s_b6
             #define ASLD3  &none
