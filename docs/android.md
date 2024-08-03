@@ -156,8 +156,8 @@ Dedicated to Bluetooth and media controls.
 
 | Label          | Action                   |
 | -------------: |  ----------------------- |
-| <kbd>B#️⃣</kbd>  | Jump to #️⃣ device         |
-| <kbd>B❌</kbd> | Clear current device     |
+| <kbd>B#️⃣</kbd> | Jump to #️⃣ device        |
+| <kbd>❌</kbd>  | Clear Bluetooth          |
 | <kbd>🌐</kbd>  | Browser                  |
 | <kbd>🎤</kbd>  | Assist                   |
 | <kbd>📅</kbd>  | Calendar                 |

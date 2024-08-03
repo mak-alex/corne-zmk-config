@@ -106,27 +106,65 @@
         };
 
         android_settings_layer {
-            #define AS10  &kp LG(N)            // tap: notifications
-            #define AS11  &m_as_a              // tap: apps
-            #define AS12  &kp LG(K)            // tap: shortcuts
-            #define AS24  &bt BT_CLR           // tap: clear Bluetooth
+            #define ASLU0  MKY_ESC
+            #define ASLU1  &m_s_b1
+            #define ASLU2  &m_s_b2
+            #define ASLU3  &none
+            #define ASLU4  &kp LG(B)            // tap: browser
+            #define ASLU5  &kp LCMD             // tap: assist
 
-            #define AS22  &kp LG(RET)          // tap: home
-            #define AS23  &kp LG(FSLH)         // tap: keyboard shortcuts
+            #define ASLM0  &none
+            #define ASLM1  &m_s_b3
+            #define ASLM2  &m_s_b4
+            #define ASLM3  &none
+            #define ASLM4  &kp LG(L)            // tap: calendar
+            #define ASLM5  &kp LG(P)            // tap: music
 
-            #define AS04  &kp LG(B)            // tap: browser
-            #define AS05  &kp LCMD             // tap: assist
-            #define AS16  &kp LG(L)            // tap: calendar
-            #define AS17  &kp LG(P)            // tap: music
-            #define AS28  &kp LG(E)            // tap: mail
-            #define AS29  &kp LG(C)            // tap: contacts
+            #define ASLD0  &mp_sSTG_cb          // tap: none | shift: clear current profile | alt: clear all profiles
+            #define ASLD1  &m_s_b5
+            #define ASLD2  &m_s_b6
+            #define ASLD3  &none
+            #define ASLD4  &kp LG(E)            // tap: mail
+            #define ASLD5  &kp LG(C)            // tap: contacts
 
-            display-name = "aSTG";
+
+            #define ASRU0  &kp C_VOL_UP
+            #define ASRU1  &none
+            #define ASRU2  &none
+            #define ASRU3  &none
+            #define ASRU4  &kp LG(N)            // tap: notifications
+            #define ASRU5  &m_as_a              // tap: apps
+
+            #define ASRM0  &kp C_MUTE
+            #define ASRM1  &hm RSHFT  C_PREV    // tap: previous
+            #define ASRM2  &hm LALT   C_PP      // tap: play/pause
+            #define ASRM3  &kp C_NEXT           // tap: next
+            #define ASRM4  &kp LG(RET)          // tap: home
+            #define ASRM5  &kp LG(FSLH)         // tap: keyboard shortcuts
+
+            #define ASRD0  &kp C_VOL_DN
+            #define ASRD1  &none
+            #define ASRD2  &none
+            #define ASRD3  &none
+            #define ASRD4  &none
+            #define ASRD5  &none
+
+
+            #define ASLT2  &kp C_BRI_DN
+            #define ASLT1  KEY_SPC
+            #define ASLT0  &to_aBAS
+
+            #define ASRT0  &to_aAXN
+            #define ASRT1  MKY_RET
+            #define ASRT2  &kp C_BRI_UP
+
+
+            display-name = "mSTG";
             bindings = <
-       AKY_ESC  &m_s_b1  &m_s_b2  &none     AS04      AS05                  &none  &kp K_VOL_DN    &kp K_MUTE  &kp K_VOL_UP   AS10   AS11
-          AS12  &m_s_b3  &m_s_b4  &none     AS16      AS17                  &none    &kp K_PREV      &kp K_PP    &kp K_NEXT   AS22   AS23
-          AS24  &m_s_b5  &m_s_b6  &none     AS28      AS29                  &none         &none         &none         &none  &none  &none
-                           &kp C_BRI_DN  KEY_SPC  &to_aBAS               &to_aAXN       AKY_RET  &kp C_BRI_UP
+              ASLU0  ASLU1  ASLU2  ASLU3  ASLU4  ASLU5    ASRU0  ASRU1  ASRU2  ASRU3  ASRU4  ASRU5
+              ASLM0  ASLM1  ASLM2  ASLM3  ASLM4  ASLM5    ASRM0  ASRM1  ASRM2  ASRM3  ASRM4  ASRM5
+              ASLD0  ASLD1  ASLD2  ASLD3  ASLD4  ASLD5    ASRD0  ASRD1  ASRD2  ASRD3  ASRD4  ASRD5
+                                   ASLT2  ASLT1  ASLT0    ASRT0  ASRT1  ASRT2
             >;
         };
 
