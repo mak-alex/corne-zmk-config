@@ -39,3 +39,15 @@ m_s_b6: macro_stg_bluetooth_6 {
     bindings =
         <&bt BT_SEL 5 &to_aBAS>;
 };
+
+// mp_sSTG_cb
+MORPH_KAS(
+    s,
+    STG,
+    cb,
+    clear_bluetooth,
+    MOD_LALT,
+    &none,
+    &bt BT_CLR,       // alt:   clear current profile
+    &bt BT_CLR_ALL    // shift: clear all profiles
+)
