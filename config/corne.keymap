@@ -9,14 +9,14 @@
 #include <dt-bindings/zmk/bt.h>
 
 /* Global */
-#include "os/all/times.dtsi"
-#include "os/all/general.dtsi"
+#include "os/shared/times.dtsi"
+#include "os/shared/general.dtsi"
 #include "os/windows/layers.dtsi"
 #include "os/macos/layers.dtsi"
 #include "os/android/layers.dtsi"
 
 /* Keys */
-#include "os/all/keys.dtsi"
+#include "os/shared/keys.dtsi"
 #include "os/windows/keys.dtsi"
 #include "os/macos/keys.dtsi"
 #include "os/android/keys.dtsi"
@@ -28,8 +28,8 @@
 
 / {
     macros {
-        #include "os/all/macros/layers.dtsi"
-        #include "os/all/macros/settings.dtsi"
+        #include "os/shared/macros/layers.dtsi"
+        #include "os/shared/macros/settings.dtsi"
 
         #include "os/windows/macros/layers.dtsi"
         #include "os/windows/macros/int.dtsi"
@@ -48,9 +48,9 @@
 
 / {
     behaviors {
-        #include "os/all/morph/shared.dtsi"
-        #include "os/all/morph/num.dtsi"
-        #include "os/all/hold/shared.dtsi"
+        #include "os/shared/morph/shared.dtsi"
+        #include "os/shared/morph/num.dtsi"
+        #include "os/shared/hold/shared.dtsi"
 
         #include "os/windows/morph/layers.dtsi"
         #include "os/windows/morph/base.dtsi"
