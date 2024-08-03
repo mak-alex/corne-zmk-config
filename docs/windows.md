@@ -175,7 +175,7 @@ Dedicated to Bluetooth and media controls.
 | --------------: | -------------------------- |  ---------------------- |
 | <kbd>B#️⃣</kbd>   |                            | Jump to #️⃣ device        |
 | <kbd>⎉</kbd>    |                            | Input source            |
-| <kbd>B❌</kbd>  |                            | Clear current device    |
+| <kbd>❌</kbd>   |                            | Clear Bluetooth         |
 | <kbd>▣</kbd>    |                            | Print Screen            |
 | <kbd>⛢</kbd>   |                            | Color Picker            |
 | <kbd>🖿</kbd>   |                            | File Explorer           |
@@ -196,11 +196,11 @@ Dedicated to Bluetooth and media controls.
 
 #### Media
 
-| Label         | Action       |
-| ------------: |  ----------- |
-| <kbd>🔊</kbd> | Volume up    |
-| <kbd>🔇</kbd> | Mute         |
-| <kbd>🔉</kbd> | Volume down  |
+| Label         | Action        |
+| ------------: |  ------------ |
+| <kbd>🔊</kbd> | Volume up     |
+| <kbd>🔇</kbd> | Mute          |
+| <kbd>🔉</kbd> | Volume down   |
 | <kbd>⏮️</kbd> | Prev          |
 | <kbd>⏯️</kbd> | Play/Pause    |
 | <kbd>⏭️</kbd> | Next          |

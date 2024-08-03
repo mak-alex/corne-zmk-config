@@ -185,7 +185,7 @@ Dedicated to Bluetooth and media controls.
 | --------------: | -------------------------- |  ---------------------------- |
 | <kbd>B#️⃣</kbd>   |                            | Jump to #️⃣ device              |
 | <kbd>⎉</kbd>    |                            | Input Source                  |
-| <kbd>B❌</kbd>  |                            | Clear current device          |
+| <kbd>❌</kbd>   |                            | Clear Bluetooth               |
 | <kbd>Z+</kbd>   |                            | Zoom in                       |
 | <kbd>ZR</kbd>   |                            | Zoom reset                    |
 | <kbd>ZR</kbd>   | <kbd>⇧</kbd>+<kbd>ZR</kbd> | Zoom reset VSCode             |
