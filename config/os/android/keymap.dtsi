@@ -135,9 +135,6 @@
             #define ASRU4  &kp LG(N)            // tap: notifications
             #define ASRU5  &m_as_a              // tap: apps
 
-                        #define WS19
-            #define WS20
-
             #define ASRM0  &kp C_MUTE
             #define ASRM1  &hm RSHFT  C_PREV    // tap: previous
             #define ASRM2  &hm LALT   C_PP      // tap: play/pause
