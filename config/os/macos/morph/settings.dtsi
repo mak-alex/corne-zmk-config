@@ -42,11 +42,11 @@ MORPH_KAS(
     &kp LS(LA(LC(F)))           // shift: center
 )
 
-// mp_mSTG_mute
+// mp_mSTG_m
 MORPH_KS(
     m,
     STG,
-    mute,
+    m,
     mute,
     &kp C_MUTE,                 // tap:   volume mute
     &kp LS(LA(LC(LG(M))))       // shift: mic mute
