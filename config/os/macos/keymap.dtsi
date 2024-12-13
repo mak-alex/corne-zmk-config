@@ -135,7 +135,7 @@
             #define MSRU4  &none
             #define MSRU5  &none                        // tap: task manager
 
-            #define MSRM0  &mp_mSTG_m                   // tap: vol mute | shift: mic mute
+            #define MSRM0  &mp_mSTG_mute                   // tap: vol mute | shift: mic mute
             #define MSRM1  &hm RSHFT  LS(LA(LG(LEFT)))  // tap: rectangle left half
             #define MSRM2  &hm_mSTG_RA  LALT 0          // tap: mp_mSTG_rectangle
             #define MSRM3  &kp LS(LA(LG(RIGHT)))        // tap: rectangle right half
