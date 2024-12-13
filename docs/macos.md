@@ -213,10 +213,13 @@ Dedicated to Bluetooth and media controls.
 
 #### Media
 
-| Label         | Action       |
-| ------------: | ------------ |
-| <kbd>🔊</kbd> | Volume up    |
-| <kbd>🔇</kbd> | Mute         |
-| <kbd>🔉</kbd> | Volume down  |
+| Label         | Shortcut                  | Action       |
+| ------------: | ------------------------- | ------------ |
+| <kbd>🔊</kbd> |                            | Volume up    |
+| <kbd>🔇</kbd> |                            | Volume Mute  |
+| <kbd>🎙️</kbd> | <kbd>⇧</kbd>+<kbd>🔇</kbd> | Mic Mute     |
+| <kbd>🔉</kbd> |                            | Volume down  |
+
+> Requires (MuteKey)[https://apps.apple.com/us/app/mutekey/id1509590766?mt=12] app
 
 ⇧ [Back to menu](#menu)
