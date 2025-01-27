@@ -18,9 +18,9 @@
 
             display-name = "aBAS";
             bindings = <
-    AKY_ESC  &kp Q  &kp W  &kp F    &kp P  &kp B             &kp J    &kp L  &mp_ai_u  &mp_ai_y   &mp_k_m   NAV_DEL
-     &mp_bc   AB13   AB14   AB15     AB16  &kp G             &kp M     AB19      AB20      AB21      AB22  NAV_BSPC
-    AKY_TAB  &kp Z  &kp X  &kp C    &kp D  &kp V             &kp K    &kp H    &mp_cs    &mp_dc  &mp_ak_q      AB35
+    AKY_ESC  &kp Q  &kp W  &kp E    &kp R  &kp T             &kp &mp_mi_y    &mp_mi_u  &mp_mi_u  AB22   &kp P   NAV_DEL
+  &mp_mk_bc   AB13   AB14   AB15     AB16  &kp G             &kp H     &kp J      &kp K      &kp L      &mp_cs  NAV_BSPC
+    AKY_TAB  &kp Z  &kp X  &kp C    &kp V  &kp B             AB19    &kp M    &mp_cs    &mp_dc  &mp_mk_q      AB35
                             AB36  KEY_SPC   AB38              AB39  AKY_RET      AB41
             >;
         };
@@ -106,7 +106,7 @@
         };
 
         android_settings_layer {
-            #define ASLU0  MKY_ESC
+            #define ASLU0  AKY_ESC
             #define ASLU1  &m_s_b1
             #define ASLU2  &m_s_b2
             #define ASLU3  &none
@@ -155,7 +155,7 @@
             #define ASLT0  &to_aBAS
 
             #define ASRT0  &to_aAXN
-            #define ASRT1  MKY_RET
+            #define ASRT1  AKY_RET
             #define ASRT2  &kp C_BRI_UP
 
 
