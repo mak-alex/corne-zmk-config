@@ -18,7 +18,7 @@
 
             display-name = "wBAS";
             bindings = <
-      AKY_ESC  &kp Q  &kp W  &kp E    &kp R  &kp T             &kp &mp_mi_y    &mp_mi_u  &mp_mi_u  WB22   &kp P   NAV_DEL
+      AKY_ESC  &kp Q  &kp W  &kp E    &kp R  &kp T             &mp_mi_y    WB21 &mp_mi_u  WB22   &kp P   NAV_DEL
   &mp_mk_bc   WB13   WB14   WB15     WB16  &kp G             &kp H     &kp J      &kp K      &kp L      &mp_cs  NAV_BSPC
     AKY_TAB  &kp Z  &kp X  &kp C    &kp V  &kp B             WB19    &kp M    &mp_cs    &mp_dc  &mp_mk_q      WB35
                             WB36  KEY_SPC   WB38              WB39  AKY_RET      WB41
