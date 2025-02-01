@@ -78,17 +78,20 @@ mp_mi_s: morph_macos_semicolon {
 mp_mi_j: behavior_j {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
+    mods = <0>;  // Добавляем обязательный параметр
     bindings = <&kp J>;
 };
 
 mp_mi_k: behavior_k {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
+    mods = <0>;
     bindings = <&kp K>;
 };
 
 mp_mi_l: behavior_l {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
+    mods = <0>;
     bindings = <&kp L>;
 };
