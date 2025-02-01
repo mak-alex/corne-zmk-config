@@ -1,66 +1,127 @@
-// tap: a
-mp_mi_a: morph_macos_a {
+// tap:         a
+// alt:         á
+// alt+shift:   Á
+mp_mi_as: morph_macos_a_shift {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
-    bindings = <&kp A>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+    bindings = <&mp_mi_l>, <&m_mi_as>;
 };
-
-// tap: e
-mp_mi_e: morph_macos_e {
+mp_mi_l: morph_macos_a {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
-    bindings = <&kp E>;
+    mods = <(MOD_LALT|MOD_RALT)>;
+    bindings = <&kp L>, <&mp_mi_as>;
 };
 
-// tap: i
+// tap:         e
+// alt:         é
+// alt+shift:   É
+mp_mi_es: morph_macos_e_shift {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+    bindings = <&mp_mi_k>, <&m_mi_es>;
+};
+mp_mi_k: morph_macos_e {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    mods = <(MOD_LALT|MOD_RALT)>;
+    bindings = <&kp K>, <&mp_mi_es>;
+};
+
+// tap:         i
+// alt:         í
+// alt+shift:   Í
+mp_mi_is: morph_macos_i_shift {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+    bindings = <&m_mi_i>, <&m_mi_is>;
+};
 mp_mi_i: morph_macos_i {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
-    bindings = <&kp I>;
+    mods = <(MOD_LALT|MOD_RALT)>;
+    bindings = <&kp I>, <&mp_mi_is>;
 };
 
-// tap: o
+// tap:         o
+// alt:         ó
+// alt+shift:   Ó
+mp_mi_os: morph_macos_o_shift {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+    bindings = <&m_mi_o>, <&m_mi_os>;
+};
 mp_mi_o: morph_macos_o {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
-    bindings = <&kp O>;
+    mods = <(MOD_LALT|MOD_RALT)>;
+    bindings = <&kp O>, <&mp_mi_os>;
 };
 
-// tap: u
+// tap:         u
+// alt:         ú
+// alt+shift:   Ú
+mp_mi_us: morph_macos_u_shift {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+    bindings = <&m_mi_u>, <&m_mi_us>;
+};
 mp_mi_u: morph_macos_u {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
-    bindings = <&kp U>;
+    mods = <(MOD_LALT|MOD_RALT)>;
+    bindings = <&kp U>, <&mp_mi_us>;
 };
 
-// tap: ; | shift: || | alt: |
+// tap:         y
+// alt:         ü
+// alt+shift:   Ü
+mp_mi_ys: morph_macos_y_shift {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+    bindings = <&m_mi_y>, <&m_mi_ys>;
+};
+mp_mi_y: morph_macos_y {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    mods = <(MOD_LALT|MOD_RALT)>;
+    bindings = <&kp Y>, <&mp_mi_ys>;
+};
+// tap:         ;
+// alt:         ¿
+// alt+shift:   ¿ (или можно другой символ)
 mp_mi_ss: morph_macos_semicolon_shift {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
-    bindings = <&kp PIPE>, <&kp PIPE>;  // Shift → ||
+    bindings = <&m_mi_s>, <&m_mi_ss>;
 };
-
 mp_mi_s: morph_macos_semicolon {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
     mods = <(MOD_LALT|MOD_RALT)>;
-    bindings = <&kp SEMICOLON>, <&kp PIPE>;  // Alt → |
+    bindings = <&kp SEMICOLON>, <&mp_mi_ss>;
 };
 
-mp_mi_j: morph_macos_j {
+mp_mi_j: behavior_j {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
     bindings = <&kp J>;
 };
 
-mp_mi_k: morph_macos_k {
+mp_mi_k: behavior_k {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
     bindings = <&kp K>;
 };
 
-mp_mi_l: morph_macos_l {
+mp_mi_l: behavior_l {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
     bindings = <&kp L>;
