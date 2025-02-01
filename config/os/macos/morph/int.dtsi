@@ -1,17 +1,19 @@
-// tap:         a
-// alt:         á
-// alt+shift:   Á
+// tap: a
+// shift: Á
 mp_mi_as: morph_macos_a_shift {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
-    bindings = <&mp_mi_l>, <&m_mi_as>;
+    bindings = <&kp A>, <&kp A_ACUTE>;  // Shift → Á
 };
+
+// tap: a
+// alt: á
 mp_mi_l: morph_macos_a {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
     mods = <(MOD_LALT|MOD_RALT)>;
-    bindings = <&kp L>, <&mp_mi_as>;
+    bindings = <&kp A>, <&kp A_ACUTE>;  // Alt → á
 };
 
 // tap:         e
