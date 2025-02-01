@@ -109,18 +109,27 @@ mp_mi_y: morph_macos_y {
     mods = <(MOD_LALT|MOD_RALT)>;
     bindings = <&kp Y>, <&mp_mi_ys>;
 };
+
 // tap:         ;
-// alt:         ¿
-// alt+shift:   ¿ (или можно другой символ)
+// shift:       ||
+// alt:         |
 mp_mi_ss: morph_macos_semicolon_shift {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
-    bindings = <&m_mi_s>, <&m_mi_sc>;
+    bindings = <&m_mi_s>, <&macro_double_pipe>;  // Shift + ; → ||
 };
+
 mp_mi_s: morph_macos_semicolon {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
     mods = <(MOD_LALT|MOD_RALT)>;
-    bindings = <&kp SEMICOLON>, <&mp_mi_ss>;
+    bindings = <&kp SEMICOLON>, <&kp PIPE>;  // Alt + ; → |
+};
+
+// Макрос для ввода "||" (двойного pipe)
+macro_double_pipe: macro_double_pipe {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp PIPE>, <&kp PIPE>;
 };
