@@ -4,10 +4,10 @@
             #define MB15  &hm          LALT   D
             #define MB16  &hm          LSHFT  F
 
-            #define MB19  &hm_mBAS_RS  RSHFT  0  //J
-            #define MB20  &hm_mBAS_RA  LALT   0  //K
-            #define MB21  &hm_mBAS_RC  RCMD   0  //L
-            #define MB22  &hm_mBAS_RG  RCTRL  0  //;
+            #define MB19  &hm  RSHFT  J  //J
+            #define MB20  &hm  LALT   K  //K
+            #define MB21  &hm  RCMD   L  //L
+            #define MB22  &hm  RCTRL  SEMICOLON  //;
 
             #define MB35  &mp_m_stg
 
