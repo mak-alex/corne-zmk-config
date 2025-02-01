@@ -47,3 +47,21 @@ mp_mi_s: morph_macos_semicolon {
     mods = <(MOD_LALT|MOD_RALT)>;
     bindings = <&kp SEMICOLON>, <&kp PIPE>;  // Alt → |
 };
+
+mp_mi_j: morph_macos_j {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp J>;
+};
+
+mp_mi_k: morph_macos_k {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp K>;
+};
+
+mp_mi_l: morph_macos_l {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp L>;
+};
