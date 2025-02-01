@@ -5,13 +5,13 @@ mp_mi_as: morph_macos_a_shift {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
-    bindings = <&m_mi_a>, <&m_mi_as>;
+    bindings = <&mp_mi_l>, <&m_mi_as>;
 };
-mp_mi_a: morph_macos_a {
+mp_mi_l: morph_macos_a {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
     mods = <(MOD_LALT|MOD_RALT)>;
-    bindings = <&kp A>, <&mp_mi_as>;
+    bindings = <&kp L>, <&mp_mi_as>;
 };
 
 // tap:         e
@@ -21,13 +21,13 @@ mp_mi_es: morph_macos_e_shift {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
-    bindings = <&m_mi_e>, <&m_mi_es>;
+    bindings = <&mp_mi_k>, <&m_mi_es>;
 };
-mp_mi_e: morph_macos_e {
+mp_mi_k: morph_macos_e {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
     mods = <(MOD_LALT|MOD_RALT)>;
-    bindings = <&kp E>, <&mp_mi_es>;
+    bindings = <&kp K>, <&mp_mi_es>;
 };
 
 // tap:         i
@@ -85,13 +85,13 @@ mp_mi_ns: morph_macos_n_shift {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
-    bindings = <&m_mi_n>, <&m_mi_ns>;
+    bindings = <&mp_mi_j>, <&m_mi_ns>;
 };
-mp_mi_n: morph_macos_n {
+mp_mi_j: morph_macos_n {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
     mods = <(MOD_LALT|MOD_RALT)>;
-    bindings = <&kp N>, <&mp_mi_ns>;
+    bindings = <&kp J>, <&mp_mi_ns>;
 };
 
 // tap:         y
@@ -109,4 +109,18 @@ mp_mi_y: morph_macos_y {
     mods = <(MOD_LALT|MOD_RALT)>;
     bindings = <&kp Y>, <&mp_mi_ys>;
 };
-
+// tap:         ;
+// alt:         ¿
+// alt+shift:   ¿ (или можно другой символ)
+mp_mi_ss: morph_macos_semicolon_shift {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+    bindings = <&m_mi_s>, <&m_mi_ss>;
+};
+mp_mi_s: morph_macos_semicolon {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    mods = <(MOD_LALT|MOD_RALT)>;
+    bindings = <&kp SEMICOLON>, <&mp_mi_ss>;
+};
