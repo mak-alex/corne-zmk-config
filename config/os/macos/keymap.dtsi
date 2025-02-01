@@ -18,7 +18,7 @@
 
             display-name = "mBAS";
             bindings = <
-    MKY_ESC  &kp Q  &kp W  &kp E    &kp R  &kp T             &kp &mp_mi_y    &mp_mi_u  &mp_mi_u  MB22   &kp P   MNV_DEL
+    MKY_ESC  &kp Q  &kp W  &kp E    &kp R  &kp T             &mp_mi_y     MB21  &mp_mi_u  MB22   &kp P   MNV_DEL
   &mp_mk_bc   MB13   MB14   MB15     MB16  &kp G             &kp H     &kp J      &kp K      &kp L      &mp_cs  MNV_BSPC
     MKY_TAB  &kp Z  &kp X  &kp C    &kp V  &kp B             MB19    &kp M    &mp_cs    &mp_dc  &mp_mk_q      MB35
                             MB36  KEY_SPC   MB38              MB39  MKY_RET      MB41
