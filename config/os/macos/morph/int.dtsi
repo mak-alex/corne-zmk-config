@@ -116,7 +116,7 @@ mp_mi_ss: morph_macos_semicolon_shift {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
-    bindings = <&m_mi_s>, <&m_mi_ss>;
+    bindings = <&m_mi_s>, <&m_mi_sc>;
 };
 mp_mi_s: morph_macos_semicolon {
     compatible = "zmk,behavior-mod-morph";

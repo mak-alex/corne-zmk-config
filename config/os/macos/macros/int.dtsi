@@ -206,3 +206,11 @@ m_mi_s: macro_macos_int_single_quote {
     bindings =
         <&kp SQT &kp SPACE>;
 };
+
+// action: ;
+m_mi_sc: macro_macos_int_semicolon {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings =
+        <&kp SEMICOLON &kp SPACE>;
+};
