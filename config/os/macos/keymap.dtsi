@@ -1,5 +1,5 @@
         mac_base_layer {
-            #define MB13  &hm_mBAS_LC  LCTRL  0  //A
+            #define MB13  &hm LCTRL A  //A
             #define MB14  &hm          LCMD   S
             #define MB15  &hm          LALT   D
             #define MB16  &hm          LSHFT  F
