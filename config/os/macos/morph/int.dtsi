@@ -61,25 +61,11 @@ mp_mi_y: morph_macos_y {
     mods = <(MOD_LALT|MOD_RALT)>;
     bindings = <&kp Y>, <&mp_mi_ys>;
 };
-// Макрос для двойного "||"
-macro_double_pipe: macro_double_pipe {
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
-    bindings = <&kp PIPE>, <&kp PIPE>;
-};
-
-// tap: ; | shift: || | alt: |
-mp_mi_ss: morph_macos_semicolon_shift {
-    compatible = "zmk,behavior-mod-morph";
-    #binding-cells = <0>;
-    mods = <(MOD_LSFT|MOD_RSFT)>;
-    bindings = <&macro_double_pipe>;  // Shift → ||
-};
 
 mp_mi_s: morph_macos_semicolon {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
-    mods = <(MOD_LALT|MOD_RALT)>;
+    mods = <0>;  // Добавляем обязательный параметр
     bindings = <&kp SEMICOLON>, <&kp PIPE>;  // Alt → |
 };
 mp_mi_j: behavior_j {
